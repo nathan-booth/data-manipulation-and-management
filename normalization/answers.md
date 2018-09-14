@@ -35,3 +35,5 @@ JOIN items I
 GROUP BY item_description
 ORDER BY number_sales DESC;
 ```
+
+4.

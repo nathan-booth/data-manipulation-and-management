@@ -12,6 +12,8 @@
 
 6. Are customers buying the same items over time?
 
-7. How are purchases distributed across the week?
+7. How many purchases are made each day of the week?
 
-8. How are purchases distributed across the year?
+8. How many purchases are made each month of the year?
+
+9. How many purchases are made each quarter of the year?
