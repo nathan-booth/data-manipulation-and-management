@@ -56,4 +56,4 @@ FROM
 GROUP BY YEAR(date_received), MONTH(date_received)
 ORDER BY YEAR(date_received), MONTH(date_received);
 ```
-This distribution implies that the data is incomplete for 2013 and 2015. That might explain why there is 3x more data reported in 2014. We only have 2013 data for July-December. We only have 2015 data for January-September and the extremely low counts for June-September suggest that actual complaints haven't made it into the data yet due to latency between among event, reporting, and recording. Thus, only 2014 plus or minus a few months in 2013 and 2015 is probably reliable. Those tails can provide some context for 2014.
+This distribution shows that the data is incomplete for 2013 and 2015. That might explain why there is 3x more data reported in 2014. We only have 2013 data for July-December. We only have 2015 data for January-September and the extremely low counts for June-September suggest that actual complaints haven't made it into the data yet due to latency between among event, reporting, and recording. Thus, only 2014 plus or minus a few months in 2013 and 2015 is probably reliable. Those tails can provide some context for 2014.
